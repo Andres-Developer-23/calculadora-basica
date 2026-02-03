@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>
+        primer Numero:
+        <input id="primerNumero" type="number">
+        </label>
+
+        <label for="operaciones">Operaciones: 
+            <select name="operacion" id="operaciones">
+                <option value="sumar">Sumar</option>
+                <option value="restar">Restar</option>
+                <option value="multiplicacion">Multiplicar</option>
+                <option value="division">Division</option>
+            </select>
+        </label>
+        <label>
+        segundo Numero:
+        <input id="segundoNumero" type="number">
+        </label>
+        <button id="btn" type="submit">Realizar</button>
+
+        <h2>Resultado: <p id="resultado"></p></h2>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
